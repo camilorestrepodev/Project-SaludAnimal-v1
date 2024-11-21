@@ -1,0 +1,28 @@
+import './App.css';
+import Header from './components/Header';
+import Banner from './components/Banner';
+import NuestrosPlanes from './components/NuestrosPlanes';
+import Directorio from './components/Directorio.jsx';
+import Teleorientacion from './components/Teleorientacion';
+import Descuentos from './components/Descuentos';
+import PreguntasFrecuentes from './components/PreguntasFrecuentes';
+import Footer from './components/Footer.jsx';
+
+function App() {
+
+
+  return (
+      <>
+          <Header/>
+          <Banner/>
+          <NuestrosPlanes/>
+          <Directorio/>
+          <Teleorientacion/>
+          <Descuentos/>
+          <PreguntasFrecuentes/>
+          <Footer/>
+      </>
+  )
+}
+
+export default App

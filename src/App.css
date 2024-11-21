@@ -1,0 +1,7 @@
+.carousel img {
+    pointer-events: auto !important;
+}
+
+.tarjeta{
+    white-space: pre-wrap;
+}
